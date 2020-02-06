@@ -6,11 +6,11 @@
  * @flow
  */
 
-type Config = {
-  APP: {
-    NAME: string,
-    VERSION: number,
-  }
+ type Config = {
+    APP: {
+        NAME: string,
+        VERSION: number,
+    },
 }
 
 const config: Config = {

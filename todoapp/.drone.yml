@@ -1,0 +1,12 @@
+---
+    kind: pipeline
+    type: docker
+    name: default
+
+    steps:
+    - name: build
+      image: node:latest
+      commands:
+        - cd todoapp
+        - npm install
+        - npm run test
