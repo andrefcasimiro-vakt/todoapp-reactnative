@@ -10,14 +10,14 @@
     APP: {
         NAME: string,
         VERSION: number,
-    }
+    },
 }
 
 const config: Config = {
-    APP: {
-        NAME: '',
-        VERSION: 0.1,
-    },
+  APP: {
+    NAME: '',
+    VERSION: 0.1, 
+  },
 }
 
 export default config;
