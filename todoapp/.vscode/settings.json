@@ -1,0 +1,82 @@
+{
+    // "eslint.packageManager": "npm",
+    // "files.autoSave": "off", // no fix on save with auto save on :-)
+    // "eslint.autoFixOnSave": true,
+    // "eslint.validate": [
+    // "javascript",
+    // "javascriptreact",
+    // { "language": "typescript", "autoFix": true },
+    // { "language": "typescriptreact", "autoFix": true }
+    // ],
+
+    // // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+    // "editor.rulers": [80, 120],
+    // "editor.formatOnSave": false,
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+    // // "editor.codeActionsOnSave": {
+    // //     "source.fixAll.eslint": true
+    // //     },
+    // "editor.codeActionsOnSaveTimeout": 2000,
+
+    // // Aplica um sinal visual na esquerda da linha selecionada
+    // "editor.renderLineHighlight": "gutter",
+
+    // // Aumenta a fonte do terminal
+    // "terminal.integrated.fontSize": 14,
+
+    // // Define o tema dos ícones na sidebar
+    // "workbench.iconTheme": "vscode-icons",
+    // "workbench.startupEditor": "newUntitledFile",
+    // "editor.tabSize": 2,
+    // "window.zoomLevel": 1,
+    // "extensions.ignoreRecommendations": true,
+    // "emmet.syntaxProfiles": {
+    // "javascript": "jsx",
+    // },
+    // "emmet.includeLanguages": {
+    // "javascript": "javascriptreact",
+    // },
+    // "editor.suggestSelection": "first",
+    // "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    // "typescript.updateImportsOnFileMove.enabled": "always",
+    // "editor.minimap.enabled": false,
+    // "javascript.updateImportsOnFileMove.enabled": "always",
+    // "java.configuration.checkProjectSettingsExclusions": false,
+    // "workbench.colorTheme": "βui - Zenburn",
+    // "typescript.validate.enable": false,
+    // "javascript.validate.enable": false,
+
+    "workbench.colorTheme": "βui - Zenburn",
+    "window.zoomLevel": 0,
+    "terminal.integrated.fontSize": 14,
+
+    "files.autoSave": "off", // no fix on save with auto save on :-)
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+        {
+        "language": "javascript",
+        "autoFix": true
+        },
+        {
+        "language": "javascriptreact",
+        "autoFix": true
+        },
+        {
+        "language": "typescript",
+        "autoFix": true
+        },
+        {
+        "language": "typescriptreact",
+        "autoFix": true
+        },
+    ],
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "java.checkstyle.autocheck": true,
+    "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication -javaagent:\"/Users/andrefernandes/.vscode/extensions/gabrielbb.vscode-lombok-1.0.0/server/lombok.jar\"",
+    "java.checkstyle.configuration": "${workspaceFolder}/checkstyle.xml",
+    
+   }
