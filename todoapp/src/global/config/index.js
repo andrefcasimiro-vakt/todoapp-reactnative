@@ -16,7 +16,7 @@
 const config: Config = {
   APP: {
     NAME: '',
-    VERSION: 0.1,
+    VERSION: 0.1, 
   },
 }
 
