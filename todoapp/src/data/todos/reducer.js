@@ -16,6 +16,15 @@ function todoReducer(
   switch(action.type) {
     case "CREATE_TODO_ACTION":
       return state.concat(action.payload);
+    case "EDIT_TODO_ACTION":
+      const newState = state.slice();
+      const index = newState.indexOf(action.payload);
+      if (index !== -1) {
+        newState[index] = action.payload;
+      }
+      return newState;
+    case "DELETE_TODO_ACTION":
+      return state.filter(todo => todo !== action.payload);
     default:
       return state;
   }
