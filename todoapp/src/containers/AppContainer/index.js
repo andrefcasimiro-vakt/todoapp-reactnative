@@ -11,6 +11,7 @@ import style from "./style.js";
 import APP_CONFIG from '../../global/config';
 import Todos from '../../components/Todos';
 import AddTodo from '../../components/AddTodo';
+import { TEST_IDS } from './constants';
 
 type Props = {}
 
@@ -40,7 +41,7 @@ class AppContainer extends Component<Props, State> {
 
     if (error) {
       return (
-        <View style={style.errorView}>
+        <View testID={TEST_IDS.ERROR_VIEW} style={style.errorView}>
             <Text style={style.errorText}>{error}</Text>
         </View>
       );

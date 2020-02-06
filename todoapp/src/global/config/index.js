@@ -10,7 +10,7 @@
     APP: {
         NAME: string,
         VERSION: number,
-    }
+    },
 }
 
 const config: Config = {
