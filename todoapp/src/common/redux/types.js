@@ -1,5 +1,5 @@
 // @flow
-export type ReduxAction<A, P> = {
+export type ReduxAction<A, P = void> = {
   type: A,
   payload: P,
 }

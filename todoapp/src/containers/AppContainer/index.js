@@ -50,7 +50,7 @@ class AppContainer extends Component<Props, State> {
     return (
       <React.Fragment>
         <AddTodo />
-        <Todos todos={[]} />
+        <Todos />
       </React.Fragment>
     );
   }
